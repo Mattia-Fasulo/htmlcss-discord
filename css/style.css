@@ -1,9 +1,9 @@
 /* utility 
 color:
-blu: 4d62d8
-black: 24272a
-grey: f6f6f6
-lilac: 96a1dc
+blu: #245ee9
+black: #23272a
+grey: #f6f6f6
+lilac: #8c9fdf
 
 */
 * {
@@ -23,8 +23,69 @@ lilac: 96a1dc
   min-height: 100px;
 }
 
-/* genral */
+/* general */
 body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: #fff;
+  font-size: 14px;
 }
+
+header {
+  width: 100%;
+  background-color: #245ee9;
+}
+footer {
+  background-color: #23272a;
+  color: #fff;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.flex-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn{
+    display: block;
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #23272a;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* header */
+/* nav */
+header .container{
+    padding: 20px 40px;
+    height: 75px;
+}
+nav ul{
+    min-width: 500px;
+}
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    height: 30px;
+}
+
+/* hero */
+.hero{
+    min-height: 495px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+}
+
