@@ -1,0 +1,30 @@
+/* utility 
+color:
+blu: 4d62d8
+black: 24272a
+grey: f6f6f6
+lilac: 96a1dc
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.debug {
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+/* genral */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #fff;
+}
