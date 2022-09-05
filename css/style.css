@@ -84,7 +84,7 @@ li a{
 
 /* hero */
 .hero{
-    min-height: 495px;
+    height: 495px;
     background-image: url('../img/jumbo.png');
     background-size: cover;
     display: flex;
@@ -92,6 +92,7 @@ li a{
     align-items: center;
     justify-content: center;
     color: #fff;
+    margin-bottom: 120px;
 }
 
 .inner-hero{
@@ -112,8 +113,8 @@ li a{
 .text-hero{
     line-height: 1.8;
     font-size: 18px;
-    min-width: 750px;
-    margin-left: -70px;
+    /* min-width: 750px; */
+    /* margin-left: -70px;   */
 }
 
 #buttons{
@@ -136,7 +137,87 @@ li a{
     margin-left: -50px;
 }
 
+/* main */
+main{
+    margin-bottom: -150px;
+}
+.img-main{
+    width: 60%;
+}
 
+.container-main{
+    width: 70%;
+    margin-top: -20px;
+    margin-bottom: 140px;
+}
+
+.section-text{
+    width: 30%;
+}
+
+.section-text h2{
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.section-text p{
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+.grey-section{
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.wave{
+    color: #f6f6f6;
+}
+
+.bg-section{
+    flex-flow: column;
+    
+}
+ .bg-section div{
+    width: 90%;
+    padding-top: 100px;
+ }
+
+ .bg-section img{
+    width: 100%;
+ }
+
+ .bg-section .section-text{
+    text-align: center;
+ }
+
+ #foot-bg-section{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+ }
+ #foot-bg-section h3{
+    font-size: 26px;
+    margin-top: -40px;
+    
+ }
+
+ .btn-lilac{
+    margin-bottom: 100px;
+    margin-top: 30px;
+    width: 21%;
+    background-color: #8c9fdf;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 0px;
+    border-radius: 30px;
+ }
+ .btn-lilac i{
+    margin-right: 7px;
+ }
 
 
 
