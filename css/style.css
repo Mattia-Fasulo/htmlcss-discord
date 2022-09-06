@@ -388,6 +388,9 @@ select{
 }
 
 /* main */
+#download .container{
+    width: 1300px;
+}
 #download main{
     justify-content: center;
     width: 100%;
@@ -395,13 +398,14 @@ select{
 }
 
 #download main div{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 5px;
     margin-right: 5px;
 
 }
 
 .card{
+    width: 560px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -417,7 +421,14 @@ select{
     border-radius: 40px;
     font-size: 18px;
     margin-bottom: 70px;
+    background-color: #23272a;
+    color: #fff;
   }
+
+  #download .btn:hover{
+    box-shadow: none;
+  }
+
 #download h3 {
     font-size: 32px;
     padding: 20px 10px;
@@ -433,4 +444,22 @@ select{
 
 .btn-down{
     margin-top: -40px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    margin-left: -5pxs;
+    float: right;
+    padding-top: 170px;
+}
+
+.last-card{
+    height: 350px;
+}
+
+#build{
+    font-size: 20px;
 }
