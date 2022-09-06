@@ -6,8 +6,8 @@ grey: #f6f6f6
 lilac: #8c9fdf
 
 */
-:root{
-    --blu: #245ee9;
+:root {
+  --blu: #245ee9;
 }
 
 * {
@@ -68,8 +68,8 @@ footer {
   transition: box-shadow 1s;
 }
 
-.btn:hover{
-    box-shadow: 2px 2px 10px black;
+.btn:hover {
+  box-shadow: 2px 2px 10px black;
 }
 
 /* header */
@@ -140,10 +140,8 @@ li a {
   border-radius: 30px;
 }
 
-
-
-.btn.btn-hero.hov:hover{
-    color: #8c9fdf;
+.btn.btn-hero.hov:hover {
+  color: #8c9fdf;
 }
 
 .btn-black {
@@ -153,8 +151,8 @@ li a {
   margin-left: -50px;
 }
 
-.btn-black:hover{
-    background-color: #37393b;
+.btn-black:hover {
+  background-color: #37393b;
 }
 
 /* main */
@@ -204,9 +202,9 @@ main {
 }
 
 .reverse {
-    transform: rotate(0.50turn);
-    margin-top: -150px;
-    margin-bottom: 160px;
+  transform: rotate(0.5turn);
+  margin-top: -150px;
+  margin-bottom: 160px;
 }
 
 .bg-section {
@@ -253,8 +251,8 @@ main {
   border-radius: 30px;
 }
 
-.btn-lilac:hover{
-    background-color: #9eade0;
+.btn-lilac:hover {
+  background-color: #9eade0;
 }
 
 .btn-lilac i {
@@ -292,174 +290,184 @@ main {
   font-weight: bolder;
 }
 
-select{ 
-    color: #fff;
-    background-color: #23272a;
-    border:0px;
-   outline:0px;
+select {
+  color: #fff;
+  background-color: #23272a;
+  border: 0px;
+  outline: 0px;
 }
 
-#ita{
-    margin-top: 30px;
-    width: 25px;
-    height: 15px;
+#ita {
+  margin-top: 30px;
+  width: 25px;
+  height: 15px;
 }
 
-#ul-social{
-    display: flex
+#ul-social {
+  display: flex;
 }
 
-#ul-social li{
-    padding: 10px 25px 0 0;
+#ul-social li {
+  padding: 10px 25px 0 0;
 }
 
-.separator{
-    height: 1px;
-    background-color: #444a68;
-    width: 1105px;
-    margin: 40px auto;   
+.separator {
+  height: 1px;
+  background-color: #444a68;
+  width: 1105px;
+  margin: 40px auto;
 }
 
-.end-footer{
-    padding: 10px 40px;
+.end-footer {
+  padding: 10px 40px;
 }
 
-.end-footer .btn{
-    background-color: #8c9fdf;
-    color: #fff;
+.end-footer .btn {
+  background-color: #8c9fdf;
+  color: #fff;
 }
-
 
 /* download page */
 /* header + hero  */
-#download nav.container{
-    background-color: #23272a;
-    max-width: 1300px;
+#download nav.container {
+  background-color: #23272a;
+  max-width: 1300px;
 }
 
-#download .flex-box li{ 
-    margin-right: 40px;
-
+#download .flex-box li {
+  margin-right: 40px;
 }
 
-#download header{
-    background-color: #23272a;
+#download header {
+  background-color: #23272a;
 }
 
-#download .hero{
-    background-color: #23272a;
-    background-image: none;
-    flex-flow: row;
-    height: 800px;
-    margin-top: -100px;
-
+#download .hero {
+  background-color: #23272a;
+  background-image: none;
+  flex-flow: row;
+  height: 800px;
+  margin-top: -100px;
 }
 
-
-#download .inner-hero{
-    text-align: left;
-    width: 35%;
-    margin-left: 180px;
-    margin-top: 110px;
+#download .inner-hero {
+  text-align: left;
+  width: 38%;
+  margin-left: 180px;
+  margin-top: 110px;
 }
-#download h1{
-    font-weight: 1000;
-    /* width: 45%; */
-    line-height: 50px;
-    font-size: 60px;
-    
+#download h1 {
+  font-weight: 1000;
+  /* width: 45%; */
+  line-height: 50px;
+  font-size: 60px;
 }
 
-.img-hero img{
-    width: 700px;
-    height: 420px;
-    margin-right: 120px;
-    margin-top: 20px;
+.img-hero img {
+  width: 700px;
+  height: 420px;
+  margin-right: 100px;
+  margin-top: 50px;
 }
 
-#download .btn.hov{
-    margin-left: -40px;
-    background-color: #5865f2;
-    color: #fff;
+#download .btn.hov {
+  margin-left: -40px;
+  background-color: #5865f2;
+  color: #fff;
 }
 
-.no-btn{
-    margin:40px 30px 0 -40px;   
+.no-btn {
+  margin: 40px 30px 0 -40px;
 }
 
 /* main */
-#download .container{
-    width: 1300px;
+#download .container {
+  width: 1300px;
 }
-#download main{
-    justify-content: center;
-    width: 100%;
-    margin-top: -50px;
-}
-
-#download main div{
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
-
+#download main {
+  justify-content: center;
+  width: 100%;
+  margin-top: -50px;
 }
 
-.card{
-    width: 560px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    border-radius: 20px;
-    padding: 60px;
-    height: 630px;
-    overflow: hidden;
-    background-color: #f6f6f6;
+#download main div {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.card {
+  width: 560px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 60px;
+  height: 630px;
+  overflow: hidden;
+  background-color: #f6f6f6;
 }
 
 #download .btn {
-    padding: 18px 32px;
-    border-radius: 40px;
-    font-size: 18px;
-    margin-bottom: 70px;
-    background-color: #23272a;
-    color: #fff;
-  }
+  padding: 18px 32px;
+  border-radius: 40px;
+  font-size: 18px;
+  background-color: #23272a;
+  color: #fff;
+}
 
-  #download .btn:hover{
-    box-shadow: none;
-  }
+#download .nav-btn {
+  display: block;
+  padding: 8px 12px;
+  background-color: #fff;
+  color: #23272a;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: box-shadow 1s;
+  font-size: 14px;
+}
+
+#download .btn:hover {
+  box-shadow: none;
+}
 
 #download h3 {
-    font-size: 32px;
-    padding: 20px 10px;
+  font-size: 32px;
+  padding: 20px 10px;
 }
 
-#download footer{
-    margin-top: 150px;
+#download footer {
+  margin-top: 150px;
 }
 
-#logo-down{
-    margin-top: -100px;
+#logo-down {
+  margin-top: -100px;
 }
 
-.btn-down{
-    margin-top: -40px;
+.btn-down {
+  margin-top: -40px;
 }
 
-.left{
-    float: left;
+.left {
+  float: left;
 }
 
-.right{
-    margin-left: -5pxs;
-    float: right;
-    padding-top: 170px;
+.right {
+  margin-left: -5pxs;
+  float: right;
+  padding-top: 170px;
 }
 
-.last-card{
-    height: 350px;
+.last-card {
+  height: 350px;
+  font-size: 20px;
 }
 
-#build{
-    font-size: 20px;
+.last-card p {
+  display: block;
+  margin-left: 10px;
+}
+
+#build {
+  font-size: 20px;
 }
